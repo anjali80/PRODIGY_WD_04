@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 115px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+
+    font-size: 2.5rem;
+    /* margin: 65px 0; */
+
+}
+
+.rightsection img {
+    width: 75%;
+
+    margin: 30px 0;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.text-gray {
+    color: gray;
+
+}
+
+#element {
+    color: rgb(170, 107, 228);
+    ;
+}
+
+.secondsection {
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.secondsection h1 {
+    font-size: 1.6rem;
+}
+
+.secondsection .box {
+    display: flex;
+    background: white;
+    width: 60vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 145px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 100px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 110px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+/* .second-right-section img {
+
+    
+    width: 75%;
+
+    margin: 30px 0;
+
+
+} */
+/* .image-top {
+    width: 200px;
+    height: 00px;
+    margin: 126px 135px;
+    position: relative;
+    top: 24px;
+    left: 150px;
+ }   */
+
+footer {
+    /* background-color: #0e0e1a; */
+    background-color: #0e0e1a;
+
+    /* height: 233px; */
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-around;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.thirdsection {
+
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+
+}
+
+.third-top-gray {
+    color: gray;
+}
+
+.third-vertical-section {
+    display: flex;
+    padding: 23px 122px;
+    /* justify-content: space-around; */
+}
